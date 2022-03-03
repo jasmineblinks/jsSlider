@@ -11,6 +11,7 @@
 .images {
   display: none;
 }
+
 img {
   width: 100% !important;
   height: 100% !important;
@@ -71,7 +72,13 @@ img {
 }
 .fade {
   animation: fade 1.5s;
+  position: relative;
 }
+.fade img {
+  background-color: blue;
+  background-blend-mode: darken;
+}
+
 @keyframes fade {
   from {
     opacity: 0.4;
