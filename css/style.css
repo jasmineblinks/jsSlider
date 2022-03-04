@@ -75,7 +75,6 @@
 }
 .fade {
   animation: fade 1.5s;
-  position: relative;
 }
 
 @keyframes fade {
