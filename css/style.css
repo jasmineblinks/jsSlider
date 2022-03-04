@@ -7,6 +7,9 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  background-color: crimson;
+  background-blend-mode: darken;
+  background-size: cover;
 }
 .images {
   display: none;
@@ -19,7 +22,8 @@ img {
 }
 #prev {
   position: absolute;
-  color: #e0e40a;
+  /* color: #e0e40a; */
+  color: crimson;
   background-color: #000;
   top: 43%;
   left: 0;
@@ -34,7 +38,7 @@ img {
 
 #next {
   position: absolute;
-  color: #e0e40a;
+  color: crimson;
   background-color: #000;
   top: 43%;
   right: 0;
@@ -81,9 +85,9 @@ img {
 
 @keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.6;
   }
   to {
-    opacity: 1;
+    opacity: 2;
   }
 }
