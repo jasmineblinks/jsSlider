@@ -7,18 +7,17 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: crimson;
+  /* background-color: crimson;
   background-blend-mode: darken;
-  background-size: cover;
+  background-size: cover; */
 }
 .images {
   display: none;
 }
 
-img {
+.fade img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover;
 }
 #prev {
   position: absolute;
@@ -65,29 +64,25 @@ img {
 .dot {
   height: 15px;
   width: 15px;
-  background-color: #e0e40a;
+  background-color: crimson;
   display: inline-block;
   border-radius: 50%;
   margin: 0 2px;
   transition: background-color 0.6s ease;
 }
 .active {
-  background-color: #333333;
+  background-color: crimson;
 }
 .fade {
   animation: fade 1.5s;
   position: relative;
 }
-.fade img {
-  background-color: blue;
-  background-blend-mode: darken;
-}
 
 @keyframes fade {
   from {
-    opacity: 0.6;
+    opacity: 0.5;
   }
   to {
-    opacity: 2;
+    opacity: 1;
   }
 }
