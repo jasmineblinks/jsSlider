@@ -22,7 +22,7 @@
 #prev {
   position: absolute;
   /* color: #e0e40a; */
-  color: crimson;
+  color: #ffff00;
   background-color: #000;
   top: 43%;
   left: 0;
@@ -37,7 +37,7 @@
 
 #next {
   position: absolute;
-  color: crimson;
+  color: #ffff00;
   background-color: #000;
   top: 43%;
   right: 0;
@@ -64,14 +64,14 @@
 .dot {
   height: 15px;
   width: 15px;
-  background-color: crimson;
+  background-color: #ffff00;
   display: inline-block;
   border-radius: 50%;
   margin: 0 2px;
   transition: background-color 0.6s ease;
 }
 .active {
-  background-color: crimson;
+  background-color: #ffff00;
 }
 .fade {
   animation: fade 1.5s;
